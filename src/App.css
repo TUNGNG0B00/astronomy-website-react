@@ -1,38 +1,385 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@import url('https://fonts.googleapis.com/css?family=Tomorrow');
+@import url('https://fonts.cdnfonts.com/css/anurati');
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
   color: white;
+  font-family: 'Anurati','Tomorrow';
+   background-image: url('img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  font-family: 'Tomorrow';
+  margin: 130px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.heading{
+  font-family: 'Anurati';
+  font-size: 30px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 30px;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid white; 
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin: 0 10px 0 0;
+  color: white;
+  background-color: transparent;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: left 0.3s ease-in-out;
+  z-index: -1;
+}
+
+button:hover::before {
+  left: 0;
+}
+
+button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+p,.subheading,a,button{
+  font-family: 'Tomorrow';
+  font-size: 20px;
+}
+
+
+
+a {
+    color: white;
+    font-family: 'Tomorrow';
+    text-decoration: none;
+    margin-right: 80px; 
+    font-size: 15px;
+}
+
+.image-moon{
+  width: 22%;
+  padding: 10px;
+}
+
+.about-us-section{
+  margin-top: 200px;
+  display: flex;
+}
+
+.paragraph{
+  text-align: left;
+  margin: 40px;
+}
+
+.image-telescope{
+
+  width: 35%;
+  padding: 20px;
+
+}
+
+.why-join-us{
+  margin-top: 150px;
+  margin: 100px;
+}
+
+
+.nav a {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.nav a::after {
+
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+
+
+.logo {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  padding-right: 100px;
+  word-spacing: 5px;
+ 
+}
+
+
+.join-us-btn-paragraph {
+  display: block; 
+  text-align: center; 
+  margin-left: 40px;
+}
+
+.footer-nav {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 100px;
+
+}
+.footer-nav{
+  display: flex;
+}
+
+.nav-footer a, .social-media a {
+  display: block; 
+  margin-bottom: 10px; 
+  text-decoration: none; 
+  text-align: left;
+}
+
+.executive{
+  text-align: left;
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+  padding: 50px;
+}
+
+.executive-portrait {
+  height: 200px; 
+  width: 200px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  filter: grayscale(100%) contrast(130%); 
+}
+
+
+.executive-1 > div:last-child {
+  flex: 1; 
+}
+
+
+.executive-paragraph {
+  text-align: left; 
+}
+
+.executive-paragraph .subheading,
+.executive-paragraph .executive-1-name,
+.executive-paragraph .paragraph {
+  margin: 0 0 10px 0; 
+  text-align: left; 
+}
+
+.black-hole {
+  position: absolute; 
+  z-index: -1; 
+  top: 0;
+  left: 0;
+  width: 60%; 
+  height: 70%; 
+  filter: brightness(130%) contrast(110%);
+  opacity: 0.8;
+}
+
+.head-about-us{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 70%;
+  margin-top:200px ;
+
+}
+
+
+  .paragraph-about-us {
+    align-self: flex-end; 
+    max-width: 40%; 
+    text-align: left ;
+    margin-left: 70%;
+
+}
+
+.quick-information{
+  display: flex;
+}
+
+.quick-information-wrapper{
+  margin-top: 400px;
+}
+
+.quick-information-wrapper p {
+  text-align: left;
+  max-width: 70%; 
+}
+
+.mars {
+  width: 45%;
+}
+
+.neptune{
+  width: 40%;
+}
+
+.saturn{
+  width: 55%;
+}
+
+.jupiter{
+  width: 50%;
+}
+
+.uranus{
+  width: 50%;
+}
+
+.mars, .neptune, .saturn, .jupiter,.uranus{
+  padding: 60px;
+}
+
+
+.about-observatory{
+  box-sizing: border-box;
+
+}
+.observatory {
+  margin-top: 500px;
+  position: absolute;
+  filter: brightness(130%) contrast(110%);
+  z-index: -1;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%; 
+  top: 870px;
+  left: 0;
+  height: auto;
+}
+
+.about-observatory{
+  margin-top: 400px;
+}
+
+
+.observatory-heading{
+  font-size: 20px;
+  text-align: left;
+  margin-right: 70%;
+
+
+}
+
+
+  .paragraph-observatory {
+    align-self: flex-end; 
+    max-width: 40%; 
+    text-align: left ;
+    margin-right: 70%;
+    
+
+}
+
+/*Table*/
+@media (min-width: 765px) and (max-width: 1024px) {
+  
+  .nav, .logo {
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav a, .nav-footer a, .social-media a {
+    margin-right: 40px;
+    font-size: 14px;
   }
+
+  .heading, .subheading {
+    font-size: 26px;
+  }
+
+  .paragraph, .paragraph-about-us, .paragraph-observatory {
+    font-size: 18px;
+    margin: 30px;
+  }
+
+  .image-moon,.mars, .neptune, .saturn, .jupiter, .uranus {
+    width: 40%; 
+  }
+
+  .black-hole{
+    width: 100%;
+    height: 50%;
+    filter: brightness(90%) contrast(110%); 
+  }
+
+
+  .head-about-us{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 70%;
+    margin-top:200px ;
+  
+  }
+  
+  
+    .paragraph-about-us {
+      align-self: flex-end; 
+      max-width: 40%; 
+      text-align: left ;
+      margin-left: 70%;
+  
+  }
+
+  .quick-information-wrapper p {
+    text-align: center;
+    margin-left: 100px;
+    max-width: 70%; 
+  }
+
+  .quick-information{
+    display: block;
+  }
+
+  .observatory {
+    margin-top: 2840px;
+    height: auto;
+  }
+
+  .paragraph-observatory{
+    margin-left: -4px;
+  }
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
 }
