@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home'; 
-import About from './pages/About'; 
-import MeetExecutives from './pages/MeetExecutives'; 
+import Home from './Home'; 
+import About from './About'; 
+import MeetExecutives from './MeetExecutives'; 
 import './App.css';
 
 function App() {
