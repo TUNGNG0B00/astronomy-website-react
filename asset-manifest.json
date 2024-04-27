@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/astronomy-website-react/static/css/main.f91d67c5.css",
+    "main.js": "/astronomy-website-react/static/js/main.5e8a9cca.js",
+    "static/js/453.ad6eb26e.chunk.js": "/astronomy-website-react/static/js/453.ad6eb26e.chunk.js",
+    "static/media/liam-smith.png": "/astronomy-website-react/static/media/liam-smith.720b5f27150bd5b6f94c.png",
+    "static/media/neptune.png": "/astronomy-website-react/static/media/neptune.3b3b21d767c6c5a8c19f.png",
+    "static/media/black-hole-image.png": "/astronomy-website-react/static/media/black-hole-image.02af2a7f96dff98efbca.png",
+    "static/media/mars.png": "/astronomy-website-react/static/media/mars.71c867313e54016cfdc2.png",
+    "static/media/saturn.png": "/astronomy-website-react/static/media/saturn.391a1ea9b2e882caaa8f.png",
+    "static/media/background.png": "/astronomy-website-react/static/media/background.4ee4ec5dc8d4fd7453e7.png",
+    "static/media/ayman-ghanai.png": "/astronomy-website-react/static/media/ayman-ghanai.a96d8e051e11cca485c3.png",
+    "static/media/jupiter.png": "/astronomy-website-react/static/media/jupiter.10498afc1dc98ed5999a.png",
+    "static/media/observatory.png": "/astronomy-website-react/static/media/observatory.f134438ca9e24b8bd3e4.png",
+    "static/media/sasha-denis.png": "/astronomy-website-react/static/media/sasha-denis.f9f6512e4f89f07d493f.png",
+    "static/media/uranus.png": "/astronomy-website-react/static/media/uranus.d894b55f08256e2b67a5.png",
+    "static/media/ethan-booker.png": "/astronomy-website-react/static/media/ethan-booker.6577233458bf649092a0.png",
+    "static/media/moon.png": "/astronomy-website-react/static/media/moon.ea9266a19ffc800fb80e.png",
+    "static/media/telescope.png": "/astronomy-website-react/static/media/telescope.f554d16f0ab25787aa33.png",
+    "index.html": "/astronomy-website-react/index.html",
+    "main.f91d67c5.css.map": "/astronomy-website-react/static/css/main.f91d67c5.css.map",
+    "main.5e8a9cca.js.map": "/astronomy-website-react/static/js/main.5e8a9cca.js.map",
+    "453.ad6eb26e.chunk.js.map": "/astronomy-website-react/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f91d67c5.css",
+    "static/js/main.5e8a9cca.js"
+  ]
+}
