@@ -34,11 +34,6 @@ export default function(){
     
         <div className="App">
 
-      <nav className="nav fade-rise-in">
-      <a href="/home">Home</a>
-          <a href="/about">About</a>
-        <a href="/meetexecutives">Meet the Executives</a>
-      </nav>
 
       <div className="main ">
       <div className="about-us ">
@@ -139,22 +134,6 @@ export default function(){
         </p>
       </div>
       </div>
-
-      <footer className="fade-rise-in">
-        <div className="footer-nav fade-rise-in">
-          <div className="nav-footer">
-          <a href="/home">Home</a>
-          <a href="/about">About</a>
-          <a href="/meetexecutives">Meet the Executives</a>
-          </div>
-
-          <div className="social-media">
-          <a href="/home">Instagram</a>
-          <a href="/about">Twitter</a>
-          <a href="/meetexecutives">Facebook</a>
-          </div>
-        </div>
-      </footer>
     </div>
    
 

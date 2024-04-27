@@ -27,12 +27,7 @@ export default function App() {
       <div className='logo'>
         DAL ASTRONOMY SOCIETY
       </div>
-      {/* Navigation */}
-      <nav className="nav fade-rise-in">
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/meetexecutives">Meet the Executives</a>
-      </nav>
+    
       {/* Main content */}
       <div className="main fade-rise-in">
         <div className="subheading fade-rise-in">Welcome To</div>
@@ -60,21 +55,8 @@ export default function App() {
           <img className="image-telescope fade-rise-in" src={telescopeImage} alt="Image of the telescope" />
         </div>
       </div>
-      {/* Footer */}
-      <footer className="fade-rise-in">
-        <div className="footer-nav fade-rise-in">
-          <div className="nav-footer">
-            <a href="/home">Home</a>
-            <a href="/about">About</a>
-            <a href="/meetexecutives">Meet the Executives</a>
-          </div>
-          <div className="social-media">
-            <a href="/home">Instagram</a>
-            <a href="/about">Twitter</a>
-            <a href="/meetexecutives">Facebook</a>
-          </div>
-        </div>
-      </footer>
+
+    
     </div>
   );
 }

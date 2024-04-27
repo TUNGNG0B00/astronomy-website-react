@@ -27,11 +27,7 @@ export default function() {
               <div className='logo'>
         DAL ASTRONOMY SOCIETY
       </div>
-            <nav className="nav">
-                <a href="/home">Home</a>
-                <a href="/about">About</a>
-                <a href="/meetexecutives">Meet the Executives</a>
-            </nav>
+         
 
             <div className="main fade-rise-in">
                 {/* Executive 1: Liam Smith */}
@@ -98,22 +94,6 @@ export default function() {
                     </div>
                 </div>
             </div>
-
-            <footer className="fade-rise-in">
-                <div className="footer-nav fade-rise-in">
-                    <div className="nav-footer">
-                        <a href="/home">Home</a>
-                        <a href="/about">About</a>
-                        <a href="/meetexecutives">Meet the Executives</a>
-                    </div>
-
-                    <div className="social-media">
-                        <a href="/home">Instagram</a>
-                        <a href="/about">Twitter</a>
-                        <a href="/meetexecutives">Facebook</a>
-                    </div>
-                </div>
-            </footer>
         </div>
     );
 }
